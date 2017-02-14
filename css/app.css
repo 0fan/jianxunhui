@@ -59,11 +59,11 @@
 .mod-activityView:before,
 .mod-activityView:after { content: ""; display: table; }
 .mod-activityView:last-child{margin-bottom: 0;}
-.mod-activityView > .pic{width: 80px;height: 64px;overflow: hidden;float: left;}
+.mod-activityView > .pic{width: 80px;height: 86px;overflow: hidden;float: left;}
 .mod-activityView > .pic > img{width: 100%;height: auto;display: block;}
 .mod-activityView > .inner{margin-left: 90px;}
-.mod-activityView > .inner > .tit{font-size: 14px;color: #1a1a1a;line-height: 1.2;margin-bottom: 10px;}
-.mod-activityView > .inner > .intro{font-size: 14px;color: #999;line-height: 1.5;margin-bottom: 10px;}
+.mod-activityView > .inner > .tit{font-size: 14px;color: #0894ec;line-height: 1.2;margin-bottom: 10px;}
+.mod-activityView > .inner > .intro{font-size: 12px;color: #999;line-height: 1.5;margin-bottom: 10px;}
 .mod-activityView > .inner > .status{font-size: 12px;color: #999;overflow: hidden;}
 .mod-activityView > .inner > .status > .item{float: left;padding-right: 20px;font-size: 0;}
 .mod-activityView > .inner > .status > .item > .icon{font-size: 12px;vertical-align: middle;display: inline-block;margin-right: 3px;}
