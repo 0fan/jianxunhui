@@ -1,0 +1,81 @@
+.mod-searchBar { position: absolute; z-index: 10; top: 2.2rem; left: 0; display: table; width: 100%; height: 2.2rem; border-bottom: 1px solid #e7e7e7; background-color: #f7f7f8; }
+.mod-searchBar > .wrap { display: table-row; }
+.mod-searchBar > .wrap > .item { display: table-cell; text-align: center; vertical-align: middle; padding: 0 5px;}
+.mod-searchBar > .wrap > .item > select { line-height: 30px; display: block; overflow: hidden; width: 100%; height: 30px; padding: 1px 1px 1px 5px; cursor: pointer; white-space: nowrap; text-overflow: ellipsis; color: #333; border: none; background: none;border:1px solid #e2e2e2; border-radius:2px; font-size: 12px;}
+.mod-searchBar ~ .content{top: 4.4rem;}
+
+.mod-listView{display: block;border-bottom: 1px solid #ddd;padding: 10px 8px;background-color: #fff;}
+.mod-listView > .tit{font-size: 16px;margin-bottom: 10px;line-height: 1.35;color: #1a1a1a;}
+.mod-listView > .intro{font-size: 14px;margin-bottom: 10px;line-height: 1.5;color: #666;}
+.mod-listView > .footer{display: table;width: 100%;table-layout: fixed;}
+.mod-listView > .footer >.wrap{display: table-row;}
+.mod-listView > .footer >.wrap > .item{display: table-cell;vertical-align: middle;text-align: left;font-size: 12px;color: #999;}
+.mod-listView > .footer >.wrap > .item:last-child{text-align: right;}
+
+.mod-search{padding: 10px;}
+.mod-search input{width: 100%;border: 1px solid #ddd;border-radius: 3px;height: 1.35rem;line-height: 1.35rem;padding: 5px;font-size: 12px;}
+
+.pageDetail-tit{padding: 10px;font-size: 14px;}
+.pageDetail-tit > h1{font-size:18px;line-height: 1.35;padding: 5px 0; }
+.pageDetail-tit > p{margin: 5px 0;}
+.pageDetail-tab{padding: 0 10px;font-size: 14px;}
+.pageDetail-tab .pageDetail-tab-control{width: 100%;display: table;}
+.pageDetail-tab .pageDetail-tab-control >.wrap{display: table-row;}
+.pageDetail-tab .pageDetail-tab-control >.wrap >.item{display: table-cell;vertical-align: middle;text-align: center;height: 30px;border: 1px solid #ddd;border-right: none;}
+.pageDetail-tab .pageDetail-tab-control >.wrap >.item:last-child{border-right: 1px solid #ddd;}
+.pageDetail-tab .pageDetail-tab-control >.wrap >.item._active{background-color: #0b3974;color: #fff;border-color: #0b3974;}
+.pageDetail-tab .pageDetail-tab-content >.wrap >.item{display: none;}
+.pageDetail-tab .pageDetail-tab-content >.wrap >.item._active{display: block;}
+.pageDetail-tab .pageDetail-tab-content >.wrap >.item .mod-infoView{display: block;}
+.pageDetail-tab .pageDetail-tab-content >.wrap >.item .mod-infoView > .tit{display: block;background-color: #d7e9ff;color:#336699;height: 30px;line-height: 30px;padding: 0 10px; }
+.pageDetail-tab .pageDetail-tab-content >.wrap >.item .mod-infoView > .mod-infoView-content{background-color: #fff;padding: 10px;}
+.pageDetail-tab .pageDetail-tab-content >.wrap >.item .mod-infoView > .mod-infoView-content > .item{overflow: hidden;margin: 8px 0;}
+.pageDetail-tab .pageDetail-tab-content >.wrap >.item .mod-infoView > .mod-infoView-content > .item >.tit{float: left;width: 100px;text-align: left;}
+.pageDetail-tab .pageDetail-tab-content >.wrap >.item .mod-infoView > .mod-infoView-content > .item >.info{margin-left: 100px;}
+.pageDetail-tab .pageDetail-tab-content >.wrap >.item .mod-infoView > .mod-infoView-content h4{margin: 10px 0;}
+
+.mod-iPanel{display: block;position: relative;padding: 15px;background-color: #00bcd4;overflow: hidden;}
+.mod-iPanel > .avatar{width: 75px;height: 75px;overflow: hidden;float: left;border-radius: 50%;}
+.mod-iPanel > .avatar img{width: 100%;height: 100%;display: block;}
+.mod-iPanel > .mod-iPanel-content{margin-left: 85px;text-align: left;}
+.mod-iPanel > .mod-iPanel-content .name{font-size: 18px;color: #fff;margin-bottom: 5px;}
+.mod-iPanel > .mod-iPanel-content .subInfo{font-size: 12px;color: #fff;}
+.mod-iPanel > .mod-iPanel-content .subInfo > .item{overflow: hidden;margin-bottom: 2px;}
+.mod-iPanel > .mod-iPanel-content .subInfo > .item > .tit{width: 60px;float: left;}
+.mod-iPanel > .mod-iPanel-content .subInfo > .item > .inner{margin-left: 60px;font-weight: bold;}
+
+.mod-gridMenu{position: relative;background-color: #fff;overflow: hidden;}
+.mod-gridMenu > .item{height: 96px;width: 33.3333%;display: table;float: left;border-right: 1px solid #eee;border-bottom: 1px solid #eee;}
+.mod-gridMenu > .item:nth-child(3n+3){border-right: none;}
+.mod-gridMenu > .item:nth-child(1n+1) > .wrap >.inner > .icon{color: #4caf50;}
+.mod-gridMenu > .item:nth-child(2n+2) > .wrap >.inner > .icon{color: #ff9800;}
+.mod-gridMenu > .item:nth-child(3n+3) > .wrap >.inner > .icon{color: #4caf50;}
+.mod-gridMenu > .item > .wrap{display: table-row;}
+.mod-gridMenu > .item > .wrap >.inner{display: table-cell;vertical-align: middle;text-align: center;}
+.mod-gridMenu > .item > .wrap >.inner > .icon{font-size: 28px;display: block;}
+.mod-gridMenu > .item > .wrap >.inner > .txt{font-size: 14px;display: block;text-align: center;color: #666;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+.mod-activityView{padding: 13px;background-color: #fff;border-bottom:1px solid #ddd;display: block;}
+.mod-activityView:before,
+.mod-activityView:after { content: ""; display: table; }
+.mod-activityView:last-child{margin-bottom: 0;}
+.mod-activityView > .pic{width: 80px;height: 64px;overflow: hidden;float: left;}
+.mod-activityView > .pic > img{width: 100%;height: auto;display: block;}
+.mod-activityView > .inner{margin-left: 90px;}
+.mod-activityView > .inner > .tit{font-size: 14px;color: #1a1a1a;line-height: 1.2;margin-bottom: 10px;}
+.mod-activityView > .inner > .intro{font-size: 14px;color: #999;line-height: 1.5;margin-bottom: 10px;}
+.mod-activityView > .inner > .status{font-size: 12px;color: #999;overflow: hidden;}
+.mod-activityView > .inner > .status > .item{float: left;padding-right: 20px;font-size: 0;}
+.mod-activityView > .inner > .status > .item > .icon{font-size: 12px;vertical-align: middle;display: inline-block;margin-right: 3px;}
+.mod-activityView > .inner > .status > .item > .txt{font-size: 12px;vertical-align: middle;display: inline-block;}
+
+.mod-activityTable{background-color: #fff;padding: 0 10px;}
+.mod-activityTable > .tit{height: 40px;line-height: 40px;white-space: normal;overflow: hidden;text-overflow: ellipsis;font-size: 16px;border-bottom: 1px solid #ddd;}
+.mod-activityTable > table{position: relative;width: 100%;}
+.mod-activityTable > table thead tr,
+.mod-activityTable > table tbody tr{border-bottom: 1px solid #ddd;}
+.mod-activityTable > table tbody tr:last-child{border-bottom: none;}
+.mod-activityTable > table th{height: 32px;vertical-align: middle;text-align: left;font-size: 12px;border-right:1px solid #ddd;padding: 0 10px;}
+.mod-activityTable > table th:last-child{border-right: none;}
+.mod-activityTable > table td{height: 32px;vertical-align: middle;text-align: left;font-size: 12px;border-right:1px solid #ddd;padding: 0 10px;}
+.mod-activityTable > table td:last-child{border-right: none;}

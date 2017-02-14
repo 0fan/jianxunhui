@@ -1,0 +1,18 @@
+.border { color: #dfe0e2; background-repeat: no-repeat; border: none !important; }
+.border._inner { color: #dcdcdc; }
+.border > * { color: #3d4145; }
+.border._t { background-image: linear-gradient(180deg, currentColor 50%, transparent 0); background-position: top; background-size: 100% 1px; }
+.border._r { background-image: linear-gradient(270deg, currentColor 50%, transparent 0); background-position: right; background-size: 1px 100%; }
+.border._b { background-image: linear-gradient(0deg, currentColor 50%, transparent 0); background-position: bottom; background-size: 100% 1px; }
+.border._l { background-image: linear-gradient(90deg, currentColor 49%, transparent 0); /* why49? */ background-position: left; background-size: 1px 100%; }
+.border._a { background-image: linear-gradient(180deg, currentColor 50%, transparent 0), linear-gradient(270deg, currentColor 50%, transparent 0), linear-gradient(0deg, currentColor 50%, transparent 0), linear-gradient(90deg, currentColor 49%, transparent 0); background-position: top, right, bottom, left; background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%; }
+.border._t._r { background-image: linear-gradient(180deg, currentColor 50%, transparent 0), linear-gradient(270deg, currentColor 50%, transparent 0); background-position: top, right; background-size: 100% 1px, 1px 100%; }
+.border._t._b { background-image: linear-gradient(180deg, currentColor 50%, transparent 0), linear-gradient(0deg, currentColor 50%, transparent 0); background-position: top, bottom; background-size: 100% 1px, 100% 1px; }
+.border._t._l { background-image: linear-gradient(180deg, currentColor 50%, transparent 0), linear-gradient(90deg, currentColor 49%, transparent 0); background-position: top, left; background-size: 100% 1px, 1px 100%; }
+.border._r._b { background-image: linear-gradient(270deg, currentColor 50%, transparent 0), linear-gradient(0deg, currentColor 50%, transparent 0); background-position: right, bottom; background-size: 1px 100%, 100% 1px; }
+.border._r._l { background-image: linear-gradient(270deg, currentColor 50%, transparent 0), linear-gradient(90deg, currentColor 49%, transparent 0); background-position: right, left; background-size: 1px 100%, 1px 100%; }
+.border._b._l { background-image: linear-gradient(0deg, currentColor 50%, transparent 0), linear-gradient(90deg, currentColor 49%, transparent 0); background-position: bottom, left; background-size: 100% 1px, 1px 100%; }
+.border._t._r._b { background-image: linear-gradient(180deg, currentColor 50%, transparent 0), linear-gradient(270deg, currentColor 50%, transparent 0), linear-gradient(0deg, currentColor 50%, transparent 0); background-position: top, right, bottom; background-size: 100% 1px, 1px 100%, 100% 1px; }
+.border._t._r._l { background-image: linear-gradient(180deg, currentColor 50%, transparent 0), linear-gradient(270deg, currentColor 50%, transparent 0), linear-gradient(90deg, currentColor 49%, transparent 0); background-position: top, right, left; background-size: 100% 1px, 1px 100%, 1px 100%; }
+.border._r._b._l { background-image: linear-gradient(270deg, currentColor 50%, transparent 0), linear-gradient(0deg, currentColor 50%, transparent 0), linear-gradient(90deg, currentColor 49%, transparent 0); background-position: right, bottom, left; background-size: 1px 100%, 100% 1px, 1px 100%; }
+.border._b._l._t { background-image: linear-gradient(180deg, currentColor 50%, transparent 0), linear-gradient(0deg, currentColor 50%, transparent 0), linear-gradient(90deg, currentColor 49%, transparent 0); background-position: top, bottom, left; background-size: 100% 1px, 100% 1px, 1px 100%; }
