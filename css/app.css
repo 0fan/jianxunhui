@@ -87,3 +87,14 @@
 .pageActivityList .activityItem > .inner > .info-goup{overflow: hidden;}
 .pageActivityList .activityItem > .inner > .info-goup > .info-item{font-size: 10px;color: #999;margin: 5px 0;}
 /* end pageActivityList */
+
+/* pagePay */
+.pagePay .pay-item{overflow: hidden;position: relative;display: block;padding: 0 12px;margin: 10px 0;}
+.pagePay .pay-item > input[type='radio']{position: absolute;clip: rect(1px,1px,1px,1px);}
+.pagePay .pay-item > input[type='radio']:checked ~ .pay-origin{border-color: #3788fd;color: #3788fd;}
+.pagePay .pay-item .pay-origin{display: block;border:1px solid #e5e5e5;background-color: #fff;border-radius: 3px;height: 44px;line-height: 44px;text-align: left;padding: 0 12px;font-size: 14px;color: #1a1a1a;}
+.pagePay .content > .tit{margin: 12px 0;font-size: 12px;padding: 0 12px;}
+.pagePay .content > .tit .name{color: #999;}
+.pagePay .content > .tit .value .money{color: #fb612b;font-size: 20px;}
+.pagePay .content > .tit .value .money .symbol{font-size: 12px;}
+/* end pagePay */
