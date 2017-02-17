@@ -98,3 +98,10 @@
 .pagePay .content > .tit .value .money{color: #fb612b;font-size: 20px;}
 .pagePay .content > .tit .value .money .symbol{font-size: 12px;}
 /* end pagePay */
+/* pageSearch */
+.pageSearch .content > .tit{margin: 12px 0;font-size: 14px;padding: 0 12px;padding: 0 12px;color: #999;}
+/* end pageSearch */
+/* ui-tag */
+.tag-block{padding: 0 12px;margin: 10px -5px;overflow: hidden;}
+.ui-tag{display: block;float: left;font-size: 12px;color: #2196f3;background-color: #bbdefb;white-space: nowrap;border-radius: 3px;line-height: 1.2;padding: 6px;margin: 5px;}
+/* end ui-tag */
