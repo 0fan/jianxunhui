@@ -55,13 +55,3 @@
 .mod-gridMenu > .item > .wrap >.inner > .icon{font-size: 28px;display: block;}
 .mod-gridMenu > .item > .wrap >.inner > .txt{font-size: 14px;display: block;text-align: center;color: #666;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 
-.mod-activityTable{background-color: #fff;padding: 0 10px;}
-.mod-activityTable > .tit{height: 40px;line-height: 40px;white-space: normal;overflow: hidden;text-overflow: ellipsis;font-size: 16px;border-bottom: 1px solid #ddd;}
-.mod-activityTable > table{position: relative;width: 100%;}
-.mod-activityTable > table thead tr,
-.mod-activityTable > table tbody tr{border-bottom: 1px solid #ddd;}
-.mod-activityTable > table tbody tr:last-child{border-bottom: none;}
-.mod-activityTable > table th{height: 32px;vertical-align: middle;text-align: left;font-size: 12px;border-right:1px solid #ddd;padding: 0 10px;}
-.mod-activityTable > table th:last-child{border-right: none;}
-.mod-activityTable > table td{height: 32px;vertical-align: middle;text-align: left;font-size: 12px;border-right:1px solid #ddd;padding: 0 10px;}
-.mod-activityTable > table td:last-child{border-right: none;}
