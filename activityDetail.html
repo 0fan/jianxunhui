@@ -16,11 +16,11 @@
 <body>
 
 <div class="page-group">
-	<div class="page page-current" id='page-index'>
+	<div class="page page-current pageActivityDetail" id='page-index'>
 		<header class="bar bar-nav">
 			<a class="icon icon-left pull-left"></a>
 			<h1 class="title">建设网</h1>
-			<button class="button pull-right button-fill">参加</button>
+			<!-- <button class="button pull-right button-fill">参加</button> -->
 		</header>
 		<nav class="bar bar-tab">
 			<a class="tab-item external active" href="#">
@@ -28,7 +28,7 @@
 				<span class="tab-label">文案</span>
 			</a>
 			<a class="tab-item external" href="#">
-				<span class="icon icon-me"></span>ri
+				<span class="icon icon-me"></span>
 				<span class="tab-label">文案</span>
 				<span class="badge">2</span>
 			</a>
@@ -45,8 +45,87 @@
 				<span class="tab-label">文案</span>
 			</a>
 		</nav>
-		<div class="content">
-			
+		<div class="bar bar-footer-secondary" style="bottom:2.5rem;">
+		  <a href="#" class="button button-block button-fill">参加</a>
+		</div>
+		<div class="content" style="bottom: 4.7rem;">
+			<div class="swiper-container flash" id='flash'>
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/tiger.jpg" alt=""></div>
+			        <div class="swiper-slide"><img src="img/tiger.jpg" alt=""></div>
+			        <div class="swiper-slide"><img src="img/tiger.jpg" alt=""></div>
+			    </div>
+			    <div class="swiper-pagination"></div>
+			</div>
+			<div class="focus">
+				<div class="focus-main border _b">
+					<a href="javascript:void(0);" onclick="return false;" class="act border _l">
+						<i class="icon anticon anticon-user"></i>
+						<span class="txt">报名</span>
+					</a>
+					<div class="tit">建设网承办在日兴“品质鉴赏-风格卫浴产品设计理念分享”</div>
+				</div>
+				<div class="focus-sub">
+					<div class="item">
+						<div class="ico"><i class="icon anticon anticon-calendar"></i></div>
+						<div class="inner border _b _inner">
+							<div class="name">活动时间</div>
+							<div class="value">2017年01月05日 15时00分 至 2017年01月05日 16时30分</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="ico"><i class="icon anticon anticon-enviromento"></i></div>
+						<div class="inner border _b _inner">
+							<div class="name">活动地点</div>
+							<div class="value">上海 杨浦区</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="ico"><i class="icon anticon anticon-paycircleo"></i></div>
+						<div class="inner border _b _inner">
+							<div class="name">活动费用</div>
+							<div class="value">AA没人0.00元</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="ico"><i class="icon anticon anticon-clockcircleo"></i></div>
+						<div class="inner border _b _inner">
+							<div class="name">截止时间</div>
+							<div class="value">2017年01月04日</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="ico"><i class="icon anticon anticon-tago"></i></div>
+						<div class="inner border _b _inner">
+							<div class="name">活动状态</div>
+							<div class="value">已结束</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="info-block">
+				<div class="tit">活动安排</div>
+				<div class="info-block-content">
+					<p>15：00-15：05 设计师签到</p>
+					<p>15：00-15：05 天诚TCBCI公司代表致词</p>
+					<p>15：00-15：05 设计公司领导欢迎致词</p>
+					<p>15：00-15：05 美标卫浴产品分享</p>
+					<p>15：00-15：05 问答、作答、交流</p>
+					<p>15:00 活动结束（赠送纪念品）</p>
+				</div>
+			</div>
+
+			<div class="info-block">
+				<div class="tit">活动回顾</div>
+				<div class="info-block-content">
+					<p>15：00-15：05 设计师签到</p>
+					<p>15：00-15：05 天诚TCBCI公司代表致词</p>
+					<p>15：00-15：05 设计公司领导欢迎致词</p>
+					<p>15：00-15：05 美标卫浴产品分享</p>
+					<p>15：00-15：05 问答、作答、交流</p>
+					<p>15:00 活动结束（赠送纪念品）</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -61,7 +140,10 @@
 
 (function(){
 
-
+// flash
+var flash = new Swiper('#flash',{
+	pagination : '.swiper-pagination'
+});
 
 })();
 

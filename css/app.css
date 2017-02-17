@@ -55,3 +55,23 @@
 .mod-gridMenu > .item > .wrap >.inner > .icon{font-size: 28px;display: block;}
 .mod-gridMenu > .item > .wrap >.inner > .txt{font-size: 14px;display: block;text-align: center;color: #666;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 
+/* pageActivityDetail */
+.pageActivityDetail .content > .flash{height: 200px;}
+.pageActivityDetail .content > .flash .swiper-slide img{width: 100%;height: auto;}
+.pageActivityDetail .content > .focus{background-color: #fff;margin-bottom: 10px;}
+.pageActivityDetail .content > .focus .focus-main{overflow: hidden;padding: 20px 0;border-bottom: 1px solid #e1e3e2;}
+.pageActivityDetail .content > .focus .focus-main > .act{float: right;width: 96px;height: 58px;text-align: center;overflow: hidden;color: #7a8293;padding-top: 3px;border-left: 1px solid #c4c4c4;}
+.pageActivityDetail .content > .focus .focus-main > .act .icon{font-size:24px;display:block;margin-bottom: 3px;width: 32px;height: 32px;line-height: 32px;text-align: center;margin: auto;}
+.pageActivityDetail .content > .focus .focus-main > .act .txt{font-size: 13px;display:block;}
+.pageActivityDetail .content > .focus .focus-main > .tit{margin-right: 96px;padding: 0 12px;font-size: 20px;line-height: 1.35;}
+.pageActivityDetail .content > .focus .focus-sub > .item{height: 44px;line-height: 44px;padding-left: 12px;overflow: hidden;}
+.pageActivityDetail .content > .focus .focus-sub > .item > .ico{float: left;width: 33px;text-align: center;}
+.pageActivityDetail .content > .focus .focus-sub > .item > .ico .icon{font-size: 16px;color: #7a8291;position: relative;top: -2px;}
+.pageActivityDetail .content > .focus .focus-sub > .item > .inner{margin-left: 33px;overflow: hidden;font-size: 13px;padding-right: 10px;}
+.pageActivityDetail .content > .focus .focus-sub > .item:last-child > .inner{background-image: none;}
+.pageActivityDetail .content > .focus .focus-sub > .item > .inner .name{float: left;white-space: nowrap;width: 30%;overflow: hidden;text-overflow: ellipsis;color: #1a1a1a;}
+.pageActivityDetail .content > .focus .focus-sub > .item > .inner .value{float: left;white-space: nowrap;width: 70%;overflow: hidden;text-overflow: ellipsis;color: #999;text-align: right;}
+.pageActivityDetail .content .info-block{margin: 10px 0;background-color: #fff;padding: 12px;}
+.pageActivityDetail .content .info-block > .tit{font-size: 14px;color: #1a1a1a;padding: 5px 0;line-height: 1.35;}
+.pageActivityDetail .content .info-block > .info-block-content{line-height: 1.5;color: #555;font-size: 14px;}
+/* end pageActivityDetail */
