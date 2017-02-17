@@ -14,9 +14,9 @@
 	<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
 	<link rel="stylesheet" href="css/ant-iconfont.css">
 <body>
-
+	
 	<div class="page-group">
-		<div class="page page-current">
+		<div class="page page-current pageActivityList" id='page-activityList'>
 			<header class="bar bar-nav">
 				<a class="icon icon-me pull-left"></a>
 				<h1 class="title">建设网</h1>
@@ -55,7 +55,48 @@
 				</a>
 			</nav>
 			<div class="content">
-				
+				<a href="activityDetail.html" class="activityItem border _b">
+					<div class="priview"><img src="img/tiger.jpg"></div>
+					<div class="inner">
+						<div class="tit">承建网承办在日兴“品质鉴赏-风格卫浴产品设计理念”</div>
+						<div class="j-abstract abstract">随着社会进步与行业发展，浴室的设计风格也随着时尚每年都在变化，卫浴产品在不断融合更多的科技含量，并打破单一的清洁功能的发展下，如今的卫浴系统已演变为集享受、休闲。清洁。保健为一体的前卫生活方式</div>
+						<div class="info-goup">
+							<div class="info-item">
+								<span class="name">活动时间:</span>								
+								<span class="value">2017年1月5日 15点</span>
+							</div>
+							<div class="info-item">
+								<span class="name">已经报名:</span>
+								<span class="value">24人</span>
+							</div>
+							<div class="info-item">
+								<span class="name">承办单位:</span>
+								<span class="value">sh_liuxb</span>
+							</div>
+						</div>
+					</div>
+				</a>
+				<a href="activityDetail.html" class="activityItem border _b">
+					<div class="priview"><img src="img/tiger.jpg"></div>
+					<div class="inner">
+						<div class="tit">承建网承办在日兴“品质鉴赏-风格卫浴产品设计理念”</div>
+						<div class="j-abstract abstract">随着社会进步与行业发展，浴室的设计风格也随着时尚每年都在变化，卫浴产品在不断融合更多的科技含量，并打破单一的清洁功能的发展下，如今的卫浴系统已演变为集享受、休闲。清洁。保健为一体的前卫生活方式</div>
+						<div class="info-goup">
+							<div class="info-item">
+								<span class="name">活动时间:</span>								
+								<span class="value">2017年1月5日 15点</span>
+							</div>
+							<div class="info-item">
+								<span class="name">已经报名:</span>
+								<span class="value">24人</span>
+							</div>
+							<div class="info-item">
+								<span class="name">承办单位:</span>
+								<span class="value">sh_liuxb</span>
+							</div>
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -70,7 +111,17 @@
 
 (function(){
 
+// 字符串截取
+var abstract = $('.j-abstract'),
+	  maxLen = 40;
 
+for(var i=0,len=abstract.length;i<len;i++){
+	var item = abstract.eq(i),
+		txt  = item.text();
+	if(txt.length>maxLen){
+		item.text(txt.slice(0,maxLen)+'...');
+	}
+}
 
 })();
 
